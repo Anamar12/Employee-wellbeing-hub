@@ -18,6 +18,43 @@ https://coolors.co/palette/000000-2f1000-621b00-945600
 */
 
 
+/* Responsivess on Smaller Screens using media queries */ 
+@media (max-width: 768px) {
+
+  .navbar-nav {
+    flex-direction: column; 
+    text-align: center; 
+  }
+
+  h1 {
+    font-size: 30px; 
+  }
+
+  #column1, #column2, #column3 {
+    width: 100%; 
+  }
+
+  form {
+    width: 100%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+  }
+
+
+  button {
+    margin-top: 1em; 
+  }
+
+  footer {
+
+    text-align: center;
+    padding: 10px; 
+  }
+
+}
+
+
+
 body {
   margin: 0;
   background: var(--background-gradient);
